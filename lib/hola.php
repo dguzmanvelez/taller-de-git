@@ -1,5 +1,5 @@
 <?php
 // Autor: Sergio Gómez <sergio@uco.es>
-// El nombre por defecto es Mundo
-$nombre = isset($argv[1]) ? $argv[1] : "Mundo";
+print "Introduce tu nombre:";
+$nombre = trim(fgets(STDIN));
 @print "Hola, {$nombre}\n";
